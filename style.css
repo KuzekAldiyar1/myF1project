@@ -1,0 +1,96 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('https://www.visitmonaco.com/ImageRepository/Lieu/79b074c9-d61e-4338-bc24-a58846d6634b/Slider/9-slider-3-collection-voitures-prince-monaco.jpg?Width=2500&Height=1250');
+    background-size: cover;
+    background-position: center;
+}
+
+.TextOfStar { 
+    font-size: 170px;
+    text-align: center;
+    margin-bottom: 192px;
+    font-family: sans-serif;
+    color: white;
+} 
+
+.text-below-stars1 {
+    background-color: rgba(255, 255, 255, 0.8);
+    font-size: 130px;
+    padding: 50px;
+    border-radius: 20px;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin: 50px 0;
+    max-width: 80%;
+}
+
+.huge-text {
+    font-size: 190px;
+    text-align: center;
+    margin: 50px 0;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+.black-box {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.explore-link {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 150px;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.item {
+    margin: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.item img {
+    width: 1400px; 
+    height: auto; 
+    transition: transform 0.3s ease;
+}
+
+.item img:hover {
+    transform: scale(1.1);
+}
+
+.item p {
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 150px;
+}
+.Authority{
+    font-size: 100px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black;
+    padding: 60px;
+    border-radius: 200px;
+
+}
